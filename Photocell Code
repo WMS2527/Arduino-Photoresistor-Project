@@ -31,6 +31,6 @@ void loop(void) {
   LEDbrightnessgreen = map(photocellReading, 0, 400, 255, 0); // Reverse 0-255 to 255-0
   analogWrite(LEDpin2, LEDbrightnessgreen);
  
-  delay(100);
+  delay(1);
 
 }
